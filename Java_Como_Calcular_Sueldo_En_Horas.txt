@@ -1,0 +1,20 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+// The main method must be in a class named "Main".
+class Main {
+    public static void main(String[] args) {
+       //declaracion de variable numeros enteros
+        int horasTrabajadas;
+        horasTrabajadas = 160; // Inicializacion de variable
+        System.out.println("Horas Trabajadas :" + horasTrabajadas); // Funcion para imprimir informacion 
+        //declaracion de variante flotante se utiliza para decimales
+        float CostoHora;
+        CostoHora =10.25f;// Inicializacion de variable flotante
+        System.out.println("Costo hora:" + CostoHora);
+        float sueldo;
+        sueldo = horasTrabajadas * CostoHora;
+        System.out.println("SueldoCosto:" + sueldo);
+            }
+}
